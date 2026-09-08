@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ђорђе Мијовић (Đorđe Mijović) - Катедра за астрономију, Математички факултет, Универзитет у Београду</title>
+<meta name="author" content="Ђорђе Мијовић">
+
+<style>
+  html::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('sun.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #fff;
+  }
+
+  .page {
+    background: rgba(255, 255, 255, 0.8); 
+    max-width: 760px;
+    margin: 30px auto;
+    padding: 32px 28px;
+    color: #223;
+    font-family: monospace;
+    position: relative;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.09);
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  h1 { margin-top:0; border-bottom:1px solid #ddd; padding-bottom:0.3em; }
+  h2 { margin-top:1.2em; }
+
+  a {
+  color: #000080;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0.2, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+  a:hover {
+  text-decoration: underline;
+}
+
+  .logo { position:absolute; top:16px; right:16px; width:72px; height:auto; }
+  @media (max-width:480px){ .logo{ position:static; float:right; margin:0 0 8px 12px; } }
+  .cols { display:grid; grid-template-columns:1fr; gap:8px; }
+  @media (min-width:640px){ .cols{ grid-template-columns:1fr 1fr; gap:32px; } }
+  ul { padding-left:18px; margin:8px 0 16px; }
+</style>
+</head>
+<body>
+  <main class="page">
+    <img class="logo" src="matf.png" alt="Грб Математичког факултета">
+
+    <h1>Ђорђе Мијовић <span style="display:none;">Đorđe Mijović</span></h1>
+    <p><strong>Сарадник у настави</strong><br>
+    Катедра за астрономију, Математички факултет, Универзитет у Београду</p>
+
+    <p>Е-пошта: <a href="mailto:djordje.mijovic@matf.bg.ac.rs">djordje.mijovic@matf.bg.ac.rs</a></p>
+
+    <h2>Настава</h2>
+    <div class="cols">
+      <section>
+        <h3>Јесењи семестар</h3>
+        <ul>
+          <li> <a href="materijali/prvi-semestar/opsta-astronomija-1/">ОПШТА АСТРОНОМИЈА 1</a></li>
+          <li> <a href="materijali/prvi-semestar/numericke-metode-u-astronomiji/">НУМЕРИЧКЕ МЕТОДЕ У АСТРОНОМИЈИ</a></li>
+	  <li> <a href="materijali/prvi-semestar/dinamika-suncevog-sistema/">ДИНАМИКА СУНЧЕВОГ СИСТЕМА</a></li>
+          <li> <a href="materijali/prvi-semestar/uvod-u-astronomiju/">УВОД У АСТРОНОМИЈУ</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>Прољећни семестар</h3>
+        <ul>
+          <li> <a href="materijali/drugi-semestar/opsta-astronomija-2/">ОПШТА АСТРОНОМИЈА 2</a></li>
+          <li> <a href="materijali/drugi-semestar/astrostatistika/">АСТРОСТАТИСТИКА</a></li>
+          <li> <a href="materijali/drugi-semestar/planetarna-astronomija/">ПЛАНЕТАРНА АСТРОНОМИЈА</a></li>
+          <li> <a href="materijali/drugi-semestar/uvod-u-nebesku-mehaniku/">УВОД У НЕБЕСКУ МЕХАНИКУ</a></li>
+        </ul>
+      </section>
+    </div>
+
+    <h2>Истраживачка интересовања</h2>
+    <p>Спектрополариметријска инверзија, пренос зрачења.</p>
+
+    <h2>Линкови</h2>
+    <ul>
+      <li> <a href="https://www.matf.bg.ac.rs">Математички факултет</a></li>
+      <li> <a href="https://github.com/zorzeus">GitHub</a></li>
+    </ul>
+  </main>
+</body>
+</html>
